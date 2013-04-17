@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="CQ"
+            id="CQ_Component">
+      </category>
+      <wizard
+            name="CQ Component"
+            icon="icons/sample.gif"
+            category="CQ_Component"
+            class="cq_component.wizards.SampleNewWizard"
+            id="cq_component.wizards.SampleNewWizard">
+      </wizard>
+   </extension>
+
+</plugin>
